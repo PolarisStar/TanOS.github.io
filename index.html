@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Tienda ThanOs</title>
+    <link rel="icon" href="img/logo.png"/>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/mobile.css" >
+    <link rel="stylesheet" href="css/carrusel.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="logo">
+        <img src="img/logo.png" alt="Logo Tiendas Tanos" class="LogoTT">
+    </div>
+
+
+<div class="wrapper">
+
+  <header class="header">
+    <div class="contenedor">
+            <img src="img/logo.png" alt="Logo Tiendas Tanos" class="LogoTT">
+        <span class="icon-bars" id="btn-menu"></span>
+        <nav class="nav" id="nav">
+            <ul class="menu">
+            <li><a class="menu__link" href="index.html">INICIO</a></li>
+            <li><a class="menu__link" href="productos.html">TIENDITA</a></li>
+            <li><a class="menu__link" href="ventas.html">VENTAS</a></li>
+            <li><a class="menu__link" href="login.html">INGRESAR</a></li>
+            </ul>   
+        </nav>
+    </div>
+</header>
+    <nav class="main-nav">
+      <img src="img/img1.jpg" alt="Notebook">
+      <img src="img/img2.jpg" alt="Notebook2">
+      <img src="img/img3.jpg" alt="Audifonos">
+      <img src="img/img4.jpg" alt="DiscoDuro">
+      <img src="img/carrousel3.jpg" alt="Pendrive">
+
+          
+    </nav>
+    <article class="content">
+      <div class="container">
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/carrousel1.jpg" alt="MAC" width="100%">
+              <div class="carousel-caption">
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="img/carrousel2.jpg" alt="OSITO" width="100%">
+              <div class="carousel-caption">
+              </div>
+            </div>
+          
+            <div class="item">
+              <img src="img/carrousel3.jpg" alt=" PENDRIVE" width="100%">
+              <div class="carousel-caption">
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="img/carrousel4.jpg" alt="AUDIFONOS" width="100%">
+              <div class="carousel-caption">
+              </div>
+            </div>
+        
+          </div>
+
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+      </div>
+        <br> <br>
+        <p><b>TIENDAS TanOs</b></p><br>
+
+        <p>Nullam ac egestas risus, ut dignissim eros. Quisque ut rhoncus diam, id varius purus. Duis eget rutrum sem. Ut feugiat, massa nec fringilla placerat, quam arcu dapibus justo, sit amet sollicitudin quam sapien non leo. Curabitur ac libero vitae enim cursus varius quis sit amet nisi. Maecenas aliquet nibh iaculis facilisis mattis. Curabitur vulputate sodales sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla eget purus blandit neque luctus tempor sed ut diam. Morbi et ornare arcu, at tincidunt urna. Praesent eu elit in leo commodo iaculis. Praesent nisl massa, mollis quis dictum eget, tempus ac eros. Aliquam vulputate posuere lacus non ornare. Phasellus suscipit vehicula lobortis. Nullam pharetra a justo at eleifend.</p>
+
+      </article> 
+
+      <footer class="main-footer" align="left">
+
+        <p>Correo electronico:
+        <a href="mailto:ThanOs@gmail.cl">ThanOs@gmail.cl</a></p>
+  
+        <p>Teléfono
+        <a href="tel:+56962381849">+56 9 62381849</a></p>
+  
+                <p>Copyright © 2018 ThanOs Todos los derechos reservados</p> 
+    </footer>
+
+    
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/app2.js"></script>
+    <script src="/service-worker.js"></script>
+  </body>
+</html>

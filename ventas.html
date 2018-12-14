@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ea">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda ThanOs</title>
+    <link rel="icon" href="img/logo.png"/>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/movil.css" >
+    <link rel="stylesheet" href="css/carrusel.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+
+<body>
+    <div class="logo">
+            <img src="img/logo.png" alt="Logo Tiendas Thanos" class="LogoTT">
+    </div>
+
+
+<div class="wrapper">
+
+    <header class="header">
+        <div class="contenedor">
+                <img src="img/logo.png" alt="Logo Tiendas Tanos" class="LogoTT">
+            <span class="icon-bars" id="btn-menu"></span>
+            <nav class="nav" id="nav">
+                <ul class="menu">
+                    <li><a class="menu__link" href="index.html">INICIO</a></li>
+                    <li><a class="menu__link" href="productos.html">TIENDITA</a></li>
+                    <li><a class="menu__link" href="login.html">INGRESAR</a></li>
+                </ul>   
+            </nav>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <img src="../img/img1.jpg" alt="Notebook">
+        <img src="../img/img2.jpg" alt="Notebook2">
+        <img src="../img/img3.jpg" alt="Audifonos">
+        <img src="../img/img4.jpg" alt="DiscoDuro">
+        <img src="../img/carrousel3.jpg" alt="Pendrive">
+    </nav>
+    <article class="content">
+            <h3 align='center'><b>Realizar Venta</b></h3> 
+        <br>
+            <form align='center' method="post">
+                <div class="item-formulario" id="listado">
+                    <form method="post" action="#" role="registrar">
+                        <b>Producto:</b>
+                        <input id="name" type="text" class="form-control input-lg">
+                        <br>
+                        <b>Fecha:</b>
+                        <br>
+                        <input  min="2000-12-31" type="date" id="fecha" required class="form-control input-lg"/>
+                        <br>
+                        <b>Hora:</b>
+                        <input id="name" type="time" class="form-control input-lg">
+                        <br>
+                        <b>Cantidad</b>
+                        <select name="comuna" class="form-control input-lg">
+                            <option>1</option>  
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <br>
+                        <b>Sucursal</b>
+                        <select name="Sucursal" class="form-control input-lg">
+                            <option>Las Condes</option>  
+                            <option></option>
+                        </select>
+                        <br>
+                        <b>Comentario:</b>
+                        <input name="Comentario" type="text" id="comentario" class="form-control input-lg">
+                        <br>
+                        <br>
+                    <button type="submit">REGISTRAR</button>
+                    </form> 
+                </div>
+        
+            </form>
+
+
+
+      </article> 
+      
+      <footer class="main-footer" align="left">
+
+        <p>Correo electronico:
+        <a href="mailto:ThanOs@gmail.cl">ThanOs@gmail.cl</a></p>
+  
+        <p>Teléfono
+        <a href="tel:+56962381849">+56 9 62381849</a></p>
+  
+                <p>Copyright © 2018 ThanOs Todos los derechos reservados</p> 
+    </footer>
+
+    
+    </div>
+
+        <script src="js/main.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/app2.js"></script>
+        <script src="/service-worker.js"></script>
+    </body>
+</html>
